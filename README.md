@@ -1,3 +1,11 @@
+## About
+
+Java implementation of a memory allocator which takes in commands for allocating and freeing memory using best-fit and first-fit algorithms.
+
+It maintains two data structures (AVL trees or BS trees or Doubly Linked Lists) to denote memory that has already been allocated elsewhere and memory that is free.
+
+The data structure containing allocated memory has the starting address of the memory as the key and the data structure with the free memory contains the size of the memory block as the key.
+
 ## Using makefile
 ```make all```
 
@@ -48,6 +56,8 @@ One sample test file test.in is attached alongside
 ```Allocate Size```
 
 ```Free Address```
+
+```Defargment -1```
 
 This is the format for commands required
 
