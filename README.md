@@ -57,7 +57,7 @@ One sample test file test.in is attached alongside
 
 ```Free Address```
 
-```Defargment -1```
+```Defragment -1```
 
 This is the format for commands required
 
